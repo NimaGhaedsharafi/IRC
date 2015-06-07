@@ -1,0 +1,34 @@
+* { font-family: tahoma !important; font-size:12px } 
+body{ direction: rtl}
+
+@font-face {
+  font-family: 'BYekan';
+  font-weight: normal;
+  src: url('../fonts/BYekan.eot?#') format('eot'),  /* IE6?8 */
+       url('../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/BYekan.ttf') format('truetype');  /* Saf3?5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'nassim';
+  font-weight: normal;
+  src: url('../fonts/nassim-regular.eot?#') format('eot'),  /* IE6?8 */
+       url('../fonts/nassim-regular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/nassim-regular.ttf') format('truetype');  /* Saf3?5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+h1, h2, h4 , h5, h6, small { font-family: BYekan !important; }
+h3 { font-family: 'nassim' !important; }
+.error { display: block; color:red; }
+.dir-up:after {
+  content: ' ▲';
+}
+.dir-down:after {
+	content: ' ▼';
+}
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.sidebar-nav {
+  padding: 9px 0;
+}
